@@ -5,7 +5,7 @@ const { createApp } = Vue;
 createApp({
   data() {
     return {
-      message: "Hello Vue!",
+      text: "Hello my friendz! :D",
     };
   },
 }).mount("#app");

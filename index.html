@@ -19,14 +19,14 @@
 </head>
 
 <body>
+    <div id="app" class="text-center">
+        <main class="background" :style="background">
 
-    <main>
-        <div id="app" class="text-center my-3">
-            <h1>{{text}}</h1>
-            <img :src="image" alt="Meme">
-        </div>
-    </main>
+            <h1 class="text-warning p-5">{{text}}</h1>
+            <img :src="image" class="rounded-5" alt="Meme">
 
+        </main>
+    </div>
 
     <!-- My JS -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
